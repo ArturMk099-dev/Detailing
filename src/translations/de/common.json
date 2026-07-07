@@ -1,0 +1,106 @@
+{
+  "service": {
+    "title": "Dienstleistungen"
+  },
+  "gallery": {
+    "title": "Galerie"
+  },
+  "contact": {
+    "title": "Kontakt"
+  },
+  "hero-btn": {
+    "title": "Angebot anfordern"
+  },
+  "hero-title": {
+    "title": "Automotive Perfektion – neu definiert"
+  },
+  "hero-txt": {
+    "title": "Wir bieten einen unübertroffenen Standard in der Fahrzeugpflege und bewahren sowie schützen Ihre Investition mit wissenschaftlicher Präzision."
+  },
+  "detal-title": {
+    "title": "Exzellenz in der Fahrzeugaufbereitung"
+  },
+  "tesla-txt": {
+    "title": "Von der intensiven Aufbereitung bis zur schützenden Keramikversiegelung – unsere Leistungen sind auf die individuellen Bedürfnisse Ihres Fahrzeugs abgestimmt."
+  },
+  "tesla-btn": {
+    "title": "Entdecken Sie unsere Leistungen"
+  },
+  "porsche-title": {
+    "title": "Wo Handwerkskunst auf Ingenieurskunst trifft"
+  },
+  "porsche-txt": {
+    "title": "Unser mehrstufiger Prozess verbindet modernste Technologie mit bewährten Verfahren und sorgt so für ein makelloses, langlebiges Finish. Wir betrachten jedes Fahrzeug als ein entstehendes Meisterwerk."
+  },
+  "slide-title": {
+    "title": "Der Feinschliff macht den Unterschied"
+  },
+  "slide-txt": {
+    "title": "Erleben Sie die transformativen Ergebnisse, von denen unsere Kunden profitieren."
+  },
+  "endor-title": {
+    "title": "Von Kennern empfohlen"
+  },
+  "endor-txt": {
+    "text1": "Solstice Detailing hat mein Auto nicht nur gereinigt, sondern ihm neues Leben eingehaucht. Die Liebe zum Detail ist schlichtweg erstklassig.",
+    "text2": "Die Keramikversiegelung ist makellos. Die Tiefe des Glanzes und der Schutzgrad übertreffen alles, was ich bisher gesehen habe. Wahre Profis.",
+    "text3": "Das Team verfügt über eine Fachkompetenz, die volles Vertrauen schafft. Mein Oldtimer sah noch nie besser aus."
+  },
+  "endor-name": {
+    "name1": "Kaelen Astor",
+    "name2": "Seraphina Vale",
+    "name3": "Orion Brixton"
+  },
+
+  "serv-title": {
+    "title": "Unsere Detailing-Angebote"
+  },
+  "serv-text": {
+    "text": "Wählen Sie die optimale Behandlung für Ihr Fahrzeug"
+  },
+  "work-title": {
+    "title1": "Innenraum-Aufbereitung",
+    "title2": "Exterieur-Auffrischung",
+    "title3": "Keramik-Perfektion"
+  },
+  "work-text": {
+    "text1": "Umfassende Tiefenreinigung aller Innenraumflächen – von der Lederpflege bis zur Polsterreinigung – für einen Zustand wie am Tag der Auslieferung.",
+    "text2": "Ein akribischer Prozess mit Dekontamination, mehrstufiger Lackaufbereitung und dem Auftragen hochwertiger Wachse oder Versiegelungen für brillanten, langanhaltenden Glanz.",
+    "text3": "Der ultimative Lackschutz. Wir verwenden professionelle Keramikversiegelungen, die für unvergleichlichen Glanz, starke hydrophobe Eigenschaften und hohe Widerstandsfähigkeit gegen Umwelteinflüsse sorgen."
+  },
+  "prot-title": {
+    "title": "Erweitern Sie Ihren Schutz"
+  },
+  "prot-text": {
+    "text": "Optimieren Sie Ihr Detailing-Erlebnis mit Spezialleistungen wie Felgenversiegelung, Glaspolitur und Motorraumreinigung"
+  },
+  "portfolio-title": {
+    "title": "Ein Portfolio der Präzision"
+  },
+  "portfolio-text": {
+    "text": "Entdecken Sie eine kuratierte Auswahl unserer aktuellen Arbeiten, die die transformative Kraft eines Solstice-Details veranschaulicht."
+  },
+
+
+  "contact-title": {
+    "title": "Vereinbaren Sie einen Beratungstermin"
+  },
+  "contact-text": {
+    "text": "Lassen Sie uns eine maßgeschneiderte Fahrzeugaufbereitung für Ihr Auto besprechen. Wir beantworten gerne Ihre Fragen und vereinbaren Ihren Termin."
+  },
+  "contact-info": {
+    "telephone": "Telefon",
+    "address": "Adresse",
+    "email": "E-Mail"
+  },
+  "form-info": {
+    "f-name": "Vorname*",
+    "l-name": "Nachname*",
+    "email": "E-Mail*",
+    "phone": "Telefon*",
+    "model": "Fahrzeugmarke & -modell",
+    "desired": "Gewünschte Dienstleistung",
+    "message": "Nachricht",
+    "submit": "Absenden"
+  }
+}
