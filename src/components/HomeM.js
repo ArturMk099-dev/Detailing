@@ -19,8 +19,16 @@ function HomeM() {
         pauseOnHover: true,
         arrows: true,
         centerMode: true,
-        centerPadding: "300px",
-        responsive: [{ breakpoint: 480, settings: { slidesToShow: 1, centerPadding: "50px" } }]
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: "50px"
+                }
+            }
+        ]
     };
 
     return (
@@ -93,7 +101,6 @@ function HomeM() {
                     </div>
                 </div>
                 <div className="row slide-row">
-                    <div style={{ width: "100%" }}>
                         <Slider {...settings}>
                             <div className="slide-img"><img src="https://static.wixstatic.com/media/c837a6_e317fc2867d1406c88150c54ece5d7f9~mv2.jpg/v1/fill/w_1000,h_636,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_e317fc2867d1406c88150c54ece5d7f9~mv2.jpg" alt=""/></div>
                             <div className="slide-img"><img src="https://static.wixstatic.com/media/c837a6_a4a41f8d13ad4c448bbce95766458cbc~mv2.jpg/v1/fill/w_1000,h_1339,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_a4a41f8d13ad4c448bbce95766458cbc~mv2.jpg" alt=""/></div>
@@ -104,7 +111,6 @@ function HomeM() {
                             <div className="slide-img"><img src="https://static.wixstatic.com/media/c837a6_6be20dccc0c146989b46a8d2c7cc64f9~mv2.jpg/v1/fill/w_1000,h_1339,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_6be20dccc0c146989b46a8d2c7cc64f9~mv2.jpg" alt=""/></div>
                             <div className="slide-img"><img src="https://static.wixstatic.com/media/c837a6_0144aa424ed54db5a4e894418b9144cf~mv2.jpg/v1/fill/w_1000,h_700,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_0144aa424ed54db5a4e894418b9144cf~mv2.jpg" alt=""/></div>
                         </Slider>
-                    </div>
                 </div>
             </section>
 

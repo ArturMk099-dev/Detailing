@@ -138,21 +138,9 @@ body{
 }
 .slider-txt{
     font-size: 20px;
-}
-#slide {
-    overflow: hidden;
+    padding-bottom: 10px;
 }
 
-.slide-img {
-    padding: 0 10px;  /* зазор между слайдами */
-}
-
-.slide-img img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    display: block;
-}
 .slick-prev,
 .slick-next {
     z-index: 10;
@@ -311,9 +299,6 @@ form > div{
     color: black;
 }
 
-
-
-
 .anim-flip {
     overflow: hidden;
     display: block;
@@ -341,9 +326,45 @@ form > div{
 .delay-2 { transition-delay: 0.30s; }
 .delay-3 { transition-delay: 0.45s; }
 
+.slide-row {
+    width: 100%;
+    overflow: hidden;
+}
 
+.slide-row .slick-slider {
+    width: 100%;
+    display: block;
+}
 
+.slide-row .slick-list {
+    width: 100%;
+    overflow: hidden;
+}
 
+.slide-row .slick-track {
+    display: flex;
+}
+
+.slide-row .slick-slide {
+    display: block !important;
+    height: auto;
+}
+
+.slide-row .slick-slide > div {
+    width: 100%;
+}
+
+.slide-img {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.slide-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
 .mobile {
     display: none !important;
 }
@@ -393,8 +414,6 @@ form > div{
         flex-wrap: wrap;
         gap: 10px !important;
     }
-
-
     #hero .row {
         padding-top: 100px !important;
     }
@@ -443,15 +462,7 @@ form > div{
     .endro-row .col{
         padding: 5px 0;
     }
-    #slide {
-        overflow: visible !important;
-    }
-    #slide .slide-row {
-        padding:  10px !important;
-    }
-    .slide-img img {
-        height: 250px !important;
-    }
+
     #footer .wrapper{
       text-align: center;
     }
@@ -531,6 +542,12 @@ form > div{
     }
     form{
         padding-top: 50px;
+    }
+    .slide-row {
+        width: 100% !important;
+    }
+    .slide-img img {
+        height: 250px !important;
     }
 }
 
