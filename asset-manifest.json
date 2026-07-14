@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Detailing/static/css/main.0e0e343a.css",
-    "main.js": "/Detailing/static/js/main.8eba7012.js",
+    "main.js": "/Detailing/static/js/main.a8f0f3ea.js",
     "static/js/453.f68776d8.chunk.js": "/Detailing/static/js/453.f68776d8.chunk.js",
     "static/media/Porsche.avif": "/Detailing/static/media/Porsche.424c2cf8f1505d28efc4.avif",
     "static/media/slick.svg": "/Detailing/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/Detailing/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Detailing/index.html",
     "main.0e0e343a.css.map": "/Detailing/static/css/main.0e0e343a.css.map",
-    "main.8eba7012.js.map": "/Detailing/static/js/main.8eba7012.js.map",
+    "main.a8f0f3ea.js.map": "/Detailing/static/js/main.a8f0f3ea.js.map",
     "453.f68776d8.chunk.js.map": "/Detailing/static/js/453.f68776d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e0e343a.css",
-    "static/js/main.8eba7012.js"
+    "static/js/main.a8f0f3ea.js"
   ]
 }
