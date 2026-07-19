@@ -549,6 +549,12 @@ form > div{
     .slide-img img {
         height: 250px !important;
     }
+    #hero{
+        background-position:  center;
+    }
+    #protect{
+      background-position:  center;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
