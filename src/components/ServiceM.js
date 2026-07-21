@@ -1,6 +1,7 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
 import { useAnimate } from '../hooks/useAnimate';
+import {Link} from "react-router-dom";
 function ServiceM() {
     const {t} = useTranslation("common");
     useAnimate();
@@ -49,7 +50,7 @@ function ServiceM() {
                         <div className="wrapper">
                             <div className="title-1 anim-flip"><span>{t("prot-title.title")}</span></div>
                             <div className="prot-txt anim-bottom delay-1">{t("prot-text.text")}</div>
-                            <div className="prot-btn anim-bottom delay-2"><button className="white-btn">{t("hero-btn.title")}</button></div>
+                            <div className="prot-btn anim-bottom delay-2"><Link to={"/contact"}><button className="white-btn">{t("hero-btn.title")}</button></Link></div>
                         </div>
                     </div>
                 </div>

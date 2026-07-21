@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useAnimate } from '../hooks/useAnimate';
+import {Link} from "react-router-dom";
 
 function HomeM() {
     const { t } = useTranslation("common");
@@ -35,7 +36,7 @@ function HomeM() {
         <div>
             <section id="hero">
                 <div className="row justify-between align-center hero-row">
-                    <div className="col w-20">
+                    <div className="col w-30">
                         <div className="wrapper">
                             <div className="title-1 anim-flip"><span>{t("hero-title.title")}</span></div>
                         </div>
@@ -43,7 +44,7 @@ function HomeM() {
                     <div className="col w-20">
                         <div className="wrapper">
                             <div className="hero-txt anim-bottom">{t("hero-txt.title")}</div>
-                            <div className="hero-btn anim-bottom delay-1"><button className='black-btn'>{t("hero-btn.title")}</button></div>
+                            <div className="hero-btn anim-bottom delay-1"><Link to={"/contact"} ><button className='black-btn'>{t("hero-btn.title")}</button></Link></div>
                         </div>
                     </div>
                 </div>
@@ -65,7 +66,7 @@ function HomeM() {
                         <div className="wrapper detal-wrap">
                             <div className="title-2 anim-flip"><span>{t("detal-title.title")}</span></div>
                             <div className="tesla-txt anim-bottom delay-1">{t("tesla-txt.title")}</div>
-                            <div className="tesla-btn anim-bottom delay-2"><button className='black-btn'>{t("tesla-btn.title")}</button></div>
+                            <div className="tesla-btn anim-bottom delay-2"><Link to={"/service"}><button className='black-btn'>{t("tesla-btn.title")}</button></Link></div>
                         </div>
                     </div>
                 </div>
